@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  border: 4px blue solid;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.list-items {
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+  font-family: "Just Another Hand";
+  font-size: 3em;
+  color: white;
+  list-style: none;
+}
+
+.list-items::before {
+  content: "\2705";
+  margin-right: 10px;
+}
+
+.list-items:hover {
+  color: rgb(81, 105, 241);
+}
+
+.list-items:active {
+  color: aliceblue;
+}
